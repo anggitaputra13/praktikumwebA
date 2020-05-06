@@ -20,6 +20,9 @@ if(isset($_POST['login'])){
             }
         }
     }
+    else{
+        echo"<script>alert('Username atau password salah');document.location.href='index.php'</script>";
+    }
     
 }
 else{
